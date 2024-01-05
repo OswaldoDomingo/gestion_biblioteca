@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel con Vue</title>
-        @vite('resource/css/app.css')
+        @vite('resources/css/app.css')
     </head>
     <body>
         <!-- Aqui se monta  app por eso es importante que sea id=app-->
         <div id="app">
         </div>
-        @vite('resource/js/app.js')
+        @vite('resources/js/app.js')
     </body>
 </html>
