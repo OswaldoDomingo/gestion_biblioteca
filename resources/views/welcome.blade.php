@@ -7,9 +7,9 @@
         <title>Laravel con Vue</title>
         @vite('resource/css/app.css')
     </head>
-    <body class="">
+    <body>
+        <!-- Aqui se monta  app por eso es importante que sea id=app-->
         <div id="app">
-            <!-- Aqui se monta  app por eso es importante que sea id=app-->
         </div>
         @vite('resource/js/app.js')
     </body>
