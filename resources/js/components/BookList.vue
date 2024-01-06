@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Lista de Libros</h2>
+        <h2 class="bg-red-800 text-white">Lista de Libros</h2>
         <ul>
             <li v-for="book in books" :key="book.id">
                 {{ book.title }} - {{ book.published_year }}
