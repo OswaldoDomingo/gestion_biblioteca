@@ -29,3 +29,6 @@ Route::post('/libros', [ApiController::class, 'store']);
 //Se crea la ruta para la api, con esta se borra un libro
 //Se pasa el id del libro que se quiere borrar, se pone entre llaves porque no se sabe que valor viene
 Route::delete('/libros/{id}', [ApiController::class, 'destroy']);
+
+// Se crea la ruta para la api, con esta recupera todos los autores
+Route::get('/autores', [ApiController::class, 'getAuthors']);
