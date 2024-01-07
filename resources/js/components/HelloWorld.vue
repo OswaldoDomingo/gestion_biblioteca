@@ -6,10 +6,17 @@
              */ -->
             <router-link to="/books">Lista de libros</router-link>
         </li>
+        <li>
+            <router-link to="/login">Login</router-link>
+        </li>
+        <li>
+            <router-link to="/registro">Registro</router-link>
+        </li>
+
     </ul>
-    <div>
+    <!-- <div>
         <p> ¡Ya estamos aquí! </p>
-    </div>
+    </div> -->
     <!-- /**
      * Componente HelloWorld.vue
      * 
@@ -18,3 +25,8 @@
      */ -->
     <router-view></router-view>
 </template>
+<script>
+
+    export default {}
+    
+</script>
