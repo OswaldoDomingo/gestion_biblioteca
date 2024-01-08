@@ -5,6 +5,10 @@ namespace App\Providers;
 // use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
+// Se integran los dos modelos de la librería
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
+
 class AuthServiceProvider extends ServiceProvider
 {
     /**
